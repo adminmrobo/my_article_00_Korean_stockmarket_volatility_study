@@ -1,0 +1,1483 @@
+{
+ "registry": "KG_00_registry",
+ "version": "0.5",
+ "updated": "2026-10-29",
+ "series": "우리나라 주식시장의 변동성 분해 — 연구실 해설",
+ "pages": [
+  {
+   "number": "1-1",
+   "slug": "c1-01_time-series",
+   "file": "ch1/1-1_time-series.html",
+   "title": "시계열 데이터의 얼굴 — 섹터지수, 수익률, 분포",
+   "nodes": 54,
+   "edges": 75
+  },
+  {
+   "number": "1-2",
+   "slug": "c1-02_efficient-market",
+   "file": "ch1/1-2_efficient-market.html",
+   "title": "효율적 시장가설 — 내일의 방향은 맞힐 수 있나",
+   "nodes": 52,
+   "edges": 68
+  },
+  {
+   "number": "1-3",
+   "slug": "c1-03_risk-measures",
+   "file": "ch1/1-3_risk-measures.html",
+   "title": "위험을 숫자 하나로 — VaR, 이동평균, EWMA, 리스크메트릭스",
+   "nodes": 51,
+   "edges": 69
+  },
+  {
+   "number": "1-4",
+   "slug": "c1-04_clustering-tests",
+   "file": "ch1/1-4_clustering-tests.html",
+   "title": "출렁임은 몰려오는가 — 이분산성과 ARCH 효과 검정",
+   "nodes": 51,
+   "edges": 67
+  },
+  {
+   "number": "1-5",
+   "slug": "c1-05_arch-garch",
+   "file": "ch1/1-5_arch-garch.html",
+   "title": "적은 모수로 긴 기억을 — ARCH, GARCH, IGARCH, GARCH-M",
+   "nodes": 52,
+   "edges": 70
+  },
+  {
+   "number": "1-6",
+   "slug": "c1-06_asymmetry-decomposition",
+   "file": "ch1/1-6_asymmetry-decomposition.html",
+   "title": "나쁜 뉴스가 더 흔든다, 그리고 오래가는 출렁임 — 비대칭 변동성과 분해 이론",
+   "nodes": 54,
+   "edges": 74
+  },
+  {
+   "number": "1-7",
+   "slug": "c1-07_volatility-index",
+   "file": "ch1/1-7_volatility-index.html",
+   "title": "시장이 스스로 말하는 출렁임 — VIX, VKOSPI, CDS",
+   "nodes": 51,
+   "edges": 70
+  },
+  {
+   "number": "2-1",
+   "slug": "c2-01_literature-map",
+   "file": "ch2/2-1_literature-map.html",
+   "title": "선행연구 지도 — 이 논문은 어디를 비집고 들어갔나",
+   "nodes": 70,
+   "edges": 95
+  },
+  {
+   "number": "2-2",
+   "slug": "c2-02_sector-questions",
+   "file": "ch2/2-2_sector-questions.html",
+   "title": "섹터지수와 세 가지 질문 — 시장을 업종으로 쪼개 보면",
+   "nodes": 53,
+   "edges": 71
+  },
+  {
+   "number": "2-3",
+   "slug": "c2-03_research-model",
+   "file": "ch2/2-3_research-model.html",
+   "title": "질문마다 식 하나 — 논문의 연구 모형",
+   "nodes": 50,
+   "edges": 68
+  },
+  {
+   "number": "2-4",
+   "slug": "c2-04_periods-chow",
+   "file": "ch2/2-4_periods-chow.html",
+   "title": "언제를 한 덩어리로 볼까 — 표본 4기간과 Chow 검정",
+   "nodes": 48,
+   "edges": 64
+  },
+  {
+   "number": "2-5",
+   "slug": "c2-05_descriptive-stats",
+   "file": "ch2/2-5_descriptive-stats.html",
+   "title": "숫자 네 개로 본 여덟 업종 — 기초통계량과 원문 검산",
+   "nodes": 48,
+   "edges": 66
+  },
+  {
+   "number": "2-6",
+   "slug": "c2-06_independence-correlation",
+   "file": "ch2/2-6_independence-correlation.html",
+   "title": "어제를 닮는가, 서로를 닮는가 — 독립성 검정과 상관 구조",
+   "nodes": 48,
+   "edges": 64
+  },
+  {
+   "number": "3-1",
+   "slug": "c3-01_garch-m-risk-premium",
+   "file": "ch3/3-1_garch-m-risk-premium.html",
+   "title": "위험이 크면 보상도 컸나 — GARCH-M 변동성 측정과 위험 프리미엄",
+   "nodes": 44,
+   "edges": 56
+  },
+  {
+   "number": "3-2",
+   "slug": "c3-02_volatility-decomposition",
+   "file": "ch3/3-2_volatility-decomposition.html",
+   "title": "오래 남는 흔들림과 금방 사라지는 흔들림 — 관측·지속·일시 변동성",
+   "nodes": 43,
+   "edges": 50
+  },
+  {
+   "number": "3-3",
+   "slug": "c3-03_decomposition-check",
+   "file": "ch3/3-3_decomposition-check.html",
+   "title": "나눈 것이 맞았나 — 기간별 변동성 분해 검증과 Chow 검정",
+   "nodes": 42,
+   "edges": 50
+  },
+  {
+   "number": "3-4",
+   "slug": "c3-04_sector-contribution",
+   "file": "ch3/3-4_sector-contribution.html",
+   "title": "시장의 흔들림은 어느 산업에서 왔나 — 섹터별 변동성 기여도",
+   "nodes": 42,
+   "edges": 51
+  },
+  {
+   "number": "3-5",
+   "slug": "c3-05_vkospi-return-effect",
+   "file": "ch3/3-5_vkospi-return-effect.html",
+   "title": "어제의 공포는 오늘 수익률을 움직였나 — VKOSPI 수익률 효과",
+   "nodes": 45,
+   "edges": 54
+  },
+  {
+   "number": "3-6",
+   "slug": "c3-06_usdf-k200f",
+   "file": "ch3/3-6_usdf-k200f.html",
+   "title": "환율과 선물은 업종을 갈라 보았나 — 달러선물·KOSPI200선물 수익률 효과",
+   "nodes": 43,
+   "edges": 57
+  },
+  {
+   "number": "3-7",
+   "slug": "c3-07_conclusion",
+   "file": "ch3/3-7_conclusion.html",
+   "title": "무엇을 알았고, 무엇을 다시 볼까 — 결론·시사점·한계",
+   "nodes": 44,
+   "edges": 50
+  }
+ ],
+ "ids": [
+  {
+   "id": "lab:concept/sector-index",
+   "type": "Concept",
+   "ko": "섹터지수",
+   "en": "sector index",
+   "firstPage": "1-1",
+   "alsoOn": [
+    "2-2"
+   ]
+  },
+  {
+   "id": "lab:concept/free-float",
+   "type": "Concept",
+   "ko": "유동주식 시가총액",
+   "en": "free float",
+   "firstPage": "1-1",
+   "alsoOn": [
+    "2-2"
+   ]
+  },
+  {
+   "id": "lab:concept/weight-cap",
+   "type": "Concept",
+   "ko": "비중 상한",
+   "en": "weight cap",
+   "firstPage": "1-1",
+   "alsoOn": [
+    "2-2"
+   ]
+  },
+  {
+   "id": "lab:concept/log-return",
+   "type": "Concept",
+   "ko": "로그 수익률",
+   "en": "log return",
+   "firstPage": "1-1",
+   "alsoOn": [
+    "2-2"
+   ]
+  },
+  {
+   "id": "lab:concept/stationarity",
+   "type": "Concept",
+   "ko": "정상성 (stationarity)",
+   "en": "stationarity",
+   "firstPage": "1-1"
+  },
+  {
+   "id": "lab:concept/volatility",
+   "type": "Concept",
+   "ko": "변동성",
+   "en": "volatility",
+   "firstPage": "1-1",
+   "alsoOn": [
+    "1-3"
+   ]
+  },
+  {
+   "id": "lab:concept/fat-tail",
+   "type": "Concept",
+   "ko": "두꺼운 꼬리",
+   "en": "fat tail",
+   "firstPage": "1-1",
+   "alsoOn": [
+    "2-5"
+   ]
+  },
+  {
+   "id": "lab:concept/kurtosis",
+   "type": "Concept",
+   "ko": "첨도",
+   "en": "kurtosis",
+   "firstPage": "1-1",
+   "alsoOn": [
+    "2-5"
+   ]
+  },
+  {
+   "id": "lab:concept/skewness",
+   "type": "Concept",
+   "ko": "왜도",
+   "en": "skewness",
+   "firstPage": "1-1",
+   "alsoOn": [
+    "1-6",
+    "2-5"
+   ]
+  },
+  {
+   "id": "lab:method/jarque-bera",
+   "type": "Method",
+   "ko": "Jarque-Bera 검정",
+   "en": "jarque bera",
+   "firstPage": "1-1",
+   "alsoOn": [
+    "2-5"
+   ]
+  },
+  {
+   "id": "lab:concept/stylized-facts",
+   "type": "Concept",
+   "ko": "정형화된 사실",
+   "en": "stylized facts",
+   "firstPage": "1-1"
+  },
+  {
+   "id": "lab:concept/volatility-clustering",
+   "type": "Concept",
+   "ko": "변동성 군집",
+   "en": "volatility clustering",
+   "firstPage": "1-1",
+   "alsoOn": [
+    "1-3",
+    "1-4",
+    "2-6",
+    "3-2"
+   ]
+  },
+  {
+   "id": "lab:concept/leverage-effect",
+   "type": "Concept",
+   "ko": "레버리지 효과",
+   "en": "leverage effect",
+   "firstPage": "1-1",
+   "alsoOn": [
+    "1-6",
+    "3-7"
+   ]
+  },
+  {
+   "id": "lab:concept/heteroskedasticity",
+   "type": "Concept",
+   "ko": "이분산성",
+   "en": "heteroskedasticity",
+   "firstPage": "1-1",
+   "alsoOn": [
+    "1-3",
+    "1-4",
+    "3-3"
+   ]
+  },
+  {
+   "id": "lab:term/sigma",
+   "type": "Term",
+   "ko": "σ (시그마)",
+   "en": "sigma",
+   "firstPage": "1-1",
+   "alsoOn": [
+    "1-3"
+   ]
+  },
+  {
+   "id": "lab:method/normal-tail",
+   "type": "Method",
+   "ko": "정규분포 꼬리 계산",
+   "en": "normal tail formula",
+   "firstPage": "1-1"
+  },
+  {
+   "id": "lab:method/empirical-tail",
+   "type": "Method",
+   "ko": "경험 분포로 세기",
+   "en": "empirical tail frequency",
+   "firstPage": "1-1"
+  },
+  {
+   "id": "lab:metric/tail-count-error",
+   "type": "Metric",
+   "ko": "큰 손실 횟수 예측 오차",
+   "en": "tail-count error",
+   "firstPage": "1-1"
+  },
+  {
+   "id": "lab:concept/efficient-market-hypothesis",
+   "type": "Concept",
+   "ko": "효율적 시장가설",
+   "en": "efficient market hypothesis",
+   "firstPage": "1-2",
+   "alsoOn": [
+    "2-6",
+    "3-5"
+   ]
+  },
+  {
+   "id": "lab:concept/weak-form-efficiency",
+   "type": "Concept",
+   "ko": "약형 효율성",
+   "en": "weak-form efficiency",
+   "firstPage": "1-2"
+  },
+  {
+   "id": "lab:concept/information-set",
+   "type": "Concept",
+   "ko": "정보집합 Iₜ",
+   "en": "information set",
+   "firstPage": "1-2"
+  },
+  {
+   "id": "lab:concept/semi-strong-form",
+   "type": "Concept",
+   "ko": "준강형 효율성",
+   "en": "semi strong form",
+   "firstPage": "1-2"
+  },
+  {
+   "id": "lab:concept/strong-form",
+   "type": "Concept",
+   "ko": "강형 효율성",
+   "en": "strong form",
+   "firstPage": "1-2"
+  },
+  {
+   "id": "lab:method/market-timing",
+   "type": "Method",
+   "ko": "마켓타이밍",
+   "en": "market timing",
+   "firstPage": "1-2"
+  },
+  {
+   "id": "lab:concept/random-walk",
+   "type": "Concept",
+   "ko": "랜덤워크 (무작위 보행)",
+   "en": "random walk",
+   "firstPage": "1-2"
+  },
+  {
+   "id": "lab:concept/autocorrelation",
+   "type": "Concept",
+   "ko": "자기상관",
+   "en": "autocorrelation",
+   "firstPage": "1-2",
+   "alsoOn": [
+    "1-4",
+    "2-6"
+   ]
+  },
+  {
+   "id": "lab:concept/winner-loser-reversal",
+   "type": "Concept",
+   "ko": "승자·패자 역전",
+   "en": "winner-loser reversal",
+   "firstPage": "1-2"
+  },
+  {
+   "id": "lab:concept/overreaction",
+   "type": "Concept",
+   "ko": "과잉반응",
+   "en": "overreaction",
+   "firstPage": "1-2"
+  },
+  {
+   "id": "lab:concept/contagion",
+   "type": "Concept",
+   "ko": "전염효과",
+   "en": "contagion",
+   "firstPage": "1-2"
+  },
+  {
+   "id": "lab:concept/co-movement",
+   "type": "Concept",
+   "ko": "동조화",
+   "en": "co movement",
+   "firstPage": "1-2",
+   "alsoOn": [
+    "2-6"
+   ]
+  },
+  {
+   "id": "lab:concept/pure-contagion",
+   "type": "Concept",
+   "ko": "순수 전염효과",
+   "en": "pure contagion",
+   "firstPage": "1-2"
+  },
+  {
+   "id": "lab:method/contrarian",
+   "type": "Method",
+   "ko": "역발상 투자 (패자 묶음)",
+   "en": "contrarian portfolio",
+   "firstPage": "1-2"
+  },
+  {
+   "id": "lab:method/momentum",
+   "type": "Method",
+   "ko": "추세 추종 (승자 묶음)",
+   "en": "momentum portfolio",
+   "firstPage": "1-2"
+  },
+  {
+   "id": "lab:metric/next-car",
+   "type": "Metric",
+   "ko": "검정 기간 누적 초과수익",
+   "en": "cumulative abnormal return",
+   "firstPage": "1-2"
+  },
+  {
+   "id": "lab:method/value-at-risk",
+   "type": "Method",
+   "ko": "VaR (위험가치)",
+   "en": "value at risk",
+   "firstPage": "1-3",
+   "alsoOn": [
+    "2-1"
+   ]
+  },
+  {
+   "id": "lab:term/confidence-level",
+   "type": "Term",
+   "ko": "신뢰수준",
+   "en": "confidence level",
+   "firstPage": "1-3"
+  },
+  {
+   "id": "lab:concept/sqrt-time",
+   "type": "Concept",
+   "ko": "제곱근 시간 규칙",
+   "en": "sqrt time",
+   "firstPage": "1-3"
+  },
+  {
+   "id": "lab:method/constant-variance",
+   "type": "Method",
+   "ko": "상수 분산 (전체 표본)",
+   "en": "constant variance",
+   "firstPage": "1-3"
+  },
+  {
+   "id": "lab:method/historical-volatility",
+   "type": "Method",
+   "ko": "역사적 변동성 모형",
+   "en": "historical volatility",
+   "firstPage": "1-3",
+   "alsoOn": [
+    "2-1"
+   ]
+  },
+  {
+   "id": "lab:method/simple-moving-average",
+   "type": "Method",
+   "ko": "단순이동평균 (SMA)",
+   "en": "simple moving average",
+   "firstPage": "1-3"
+  },
+  {
+   "id": "lab:method/ewma",
+   "type": "Method",
+   "ko": "지수가중이동평균 (EWMA)",
+   "en": "ewma",
+   "firstPage": "1-3",
+   "alsoOn": [
+    "1-5"
+   ]
+  },
+  {
+   "id": "lab:term/lambda",
+   "type": "Term",
+   "ko": "λ (람다)",
+   "en": "lambda",
+   "firstPage": "1-3"
+  },
+  {
+   "id": "lab:method/riskmetrics",
+   "type": "Method",
+   "ko": "리스크메트릭스 (RiskMetrics)",
+   "en": "riskmetrics",
+   "firstPage": "1-3"
+  },
+  {
+   "id": "lab:metric/var-exceedance",
+   "type": "Metric",
+   "ko": "VaR 초과율",
+   "en": "VaR exceedance",
+   "firstPage": "1-3"
+  },
+  {
+   "id": "lab:metric/forecast-rmse",
+   "type": "Metric",
+   "ko": "변동성 예측 오차 (RMSE)",
+   "en": "forecast RMSE",
+   "firstPage": "1-3",
+   "alsoOn": [
+    "1-5",
+    "1-6",
+    "2-1"
+   ]
+  },
+  {
+   "id": "lab:concept/conditional-variance",
+   "type": "Concept",
+   "ko": "조건부 분산 hₜ",
+   "en": "conditional variance",
+   "firstPage": "1-4",
+   "alsoOn": [
+    "3-1"
+   ]
+  },
+  {
+   "id": "lab:concept/unconditional-variance",
+   "type": "Concept",
+   "ko": "무조건부 분산",
+   "en": "unconditional variance",
+   "firstPage": "1-4",
+   "alsoOn": [
+    "1-5"
+   ]
+  },
+  {
+   "id": "lab:method/ljung-box-test",
+   "type": "Method",
+   "ko": "Ljung-Box Q 검정",
+   "en": "ljung box test",
+   "firstPage": "1-4",
+   "alsoOn": [
+    "2-6"
+   ]
+  },
+  {
+   "id": "lab:term/null-hypothesis",
+   "type": "Term",
+   "ko": "귀무가설",
+   "en": "null hypothesis",
+   "firstPage": "1-4"
+  },
+  {
+   "id": "lab:term/significance-level",
+   "type": "Term",
+   "ko": "유의수준",
+   "en": "significance level",
+   "firstPage": "1-4"
+  },
+  {
+   "id": "lab:method/lm-test",
+   "type": "Method",
+   "ko": "라그랑주 승수(LM) 검정",
+   "en": "lm test",
+   "firstPage": "1-4"
+  },
+  {
+   "id": "lab:term/r-squared",
+   "type": "Term",
+   "ko": "결정계수 R²",
+   "en": "r squared",
+   "firstPage": "1-4"
+  },
+  {
+   "id": "lab:method/maximum-likelihood",
+   "type": "Method",
+   "ko": "최우추정 (ML)",
+   "en": "maximum likelihood",
+   "firstPage": "1-4",
+   "alsoOn": [
+    "1-5",
+    "2-3",
+    "3-1"
+   ]
+  },
+  {
+   "id": "lab:concept/log-likelihood",
+   "type": "Concept",
+   "ko": "로그우도",
+   "en": "log likelihood",
+   "firstPage": "1-4"
+  },
+  {
+   "id": "lab:method/arch",
+   "type": "Method",
+   "ko": "ARCH 모형",
+   "en": "arch",
+   "firstPage": "1-4",
+   "alsoOn": [
+    "1-5"
+   ]
+  },
+  {
+   "id": "lab:method/moment-estimator",
+   "type": "Method",
+   "ko": "적률 추정 (u² 자기상관)",
+   "en": "moment estimator",
+   "firstPage": "1-4"
+  },
+  {
+   "id": "lab:metric/abs-error",
+   "type": "Metric",
+   "ko": "α₁ 추정 오차",
+   "en": "absolute error",
+   "firstPage": "1-4"
+  },
+  {
+   "id": "lab:method/garch",
+   "type": "Method",
+   "ko": "GARCH 모형",
+   "en": "GARCH",
+   "firstPage": "1-5",
+   "alsoOn": [
+    "1-6"
+   ]
+  },
+  {
+   "id": "lab:concept/persistence",
+   "type": "Concept",
+   "ko": "지속성 (α+β)",
+   "en": "persistence",
+   "firstPage": "1-5",
+   "alsoOn": [
+    "2-4",
+    "3-1"
+   ]
+  },
+  {
+   "id": "lab:concept/mean-reversion",
+   "type": "Concept",
+   "ko": "평균회귀",
+   "en": "mean reversion",
+   "firstPage": "1-5"
+  },
+  {
+   "id": "lab:term/omega",
+   "type": "Term",
+   "ko": "ω (오메가)",
+   "en": "omega",
+   "firstPage": "1-5"
+  },
+  {
+   "id": "lab:method/igarch",
+   "type": "Method",
+   "ko": "IGARCH",
+   "en": "integrated GARCH",
+   "firstPage": "1-5"
+  },
+  {
+   "id": "lab:method/garch-m",
+   "type": "Method",
+   "ko": "GARCH-M",
+   "en": "GARCH-in-mean",
+   "firstPage": "1-5",
+   "alsoOn": [
+    "2-3",
+    "3-1"
+   ]
+  },
+  {
+   "id": "lab:concept/risk-premium",
+   "type": "Concept",
+   "ko": "위험 프리미엄",
+   "en": "risk premium",
+   "firstPage": "1-5",
+   "alsoOn": [
+    "2-1",
+    "2-3",
+    "3-1"
+   ]
+  },
+  {
+   "id": "lab:concept/half-life",
+   "type": "Concept",
+   "ko": "반감기",
+   "en": "half life",
+   "firstPage": "1-5",
+   "alsoOn": [
+    "3-1"
+   ]
+  },
+  {
+   "id": "lab:concept/financial-leverage",
+   "type": "Concept",
+   "ko": "재무레버리지",
+   "en": "financial leverage",
+   "firstPage": "1-6"
+  },
+  {
+   "id": "lab:method/tgarch",
+   "type": "Method",
+   "ko": "TGARCH (기준값 GARCH)",
+   "en": "tgarch",
+   "firstPage": "1-6"
+  },
+  {
+   "id": "lab:concept/news-impact-curve",
+   "type": "Concept",
+   "ko": "뉴스 충격 곡선",
+   "en": "news impact curve",
+   "firstPage": "1-6"
+  },
+  {
+   "id": "lab:term/dummy-variable",
+   "type": "Term",
+   "ko": "더미변수",
+   "en": "dummy variable",
+   "firstPage": "1-6"
+  },
+  {
+   "id": "lab:method/egarch",
+   "type": "Method",
+   "ko": "EGARCH (지수 GARCH)",
+   "en": "egarch",
+   "firstPage": "1-6",
+   "alsoOn": [
+    "2-1"
+   ]
+  },
+  {
+   "id": "lab:concept/permanent-volatility",
+   "type": "Concept",
+   "ko": "지속적 변동성 Pₜ",
+   "en": "permanent volatility",
+   "firstPage": "1-6",
+   "alsoOn": [
+    "2-1",
+    "2-3",
+    "3-2",
+    "3-3",
+    "3-4"
+   ]
+  },
+  {
+   "id": "lab:concept/transitory-volatility",
+   "type": "Concept",
+   "ko": "일시적 변동성 Tₜ",
+   "en": "transitory volatility",
+   "firstPage": "1-6",
+   "alsoOn": [
+    "2-1",
+    "2-3",
+    "3-2",
+    "3-3",
+    "3-4"
+   ]
+  },
+  {
+   "id": "lab:concept/low-frequency-volatility",
+   "type": "Concept",
+   "ko": "저빈도 변동성 τ",
+   "en": "low frequency volatility",
+   "firstPage": "1-6"
+  },
+  {
+   "id": "lab:concept/high-frequency-volatility",
+   "type": "Concept",
+   "ko": "고빈도 변동성 g",
+   "en": "high frequency volatility",
+   "firstPage": "1-6"
+  },
+  {
+   "id": "lab:method/garch-midas",
+   "type": "Method",
+   "ko": "GARCH-MIDAS",
+   "en": "garch midas",
+   "firstPage": "1-6",
+   "alsoOn": [
+    "2-1",
+    "3-7"
+   ]
+  },
+  {
+   "id": "lab:concept/volatility-index",
+   "type": "Concept",
+   "ko": "변동성 지수",
+   "en": "volatility index",
+   "firstPage": "1-7"
+  },
+  {
+   "id": "lab:concept/vix",
+   "type": "Concept",
+   "ko": "VIX",
+   "en": "vix",
+   "firstPage": "1-7"
+  },
+  {
+   "id": "lab:concept/implied-volatility",
+   "type": "Concept",
+   "ko": "내재변동성",
+   "en": "implied volatility",
+   "firstPage": "1-7",
+   "alsoOn": [
+    "2-1"
+   ]
+  },
+  {
+   "id": "lab:term/otm-option",
+   "type": "Term",
+   "ko": "외가격(OTM) 옵션",
+   "en": "otm option",
+   "firstPage": "1-7"
+  },
+  {
+   "id": "lab:term/atm-option",
+   "type": "Term",
+   "ko": "등가격(ATM) 옵션",
+   "en": "atm option",
+   "firstPage": "1-7"
+  },
+  {
+   "id": "lab:method/black-scholes",
+   "type": "Method",
+   "ko": "블랙-숄즈 모형",
+   "en": "black scholes",
+   "firstPage": "1-7"
+  },
+  {
+   "id": "lab:method/fair-variance-swap",
+   "type": "Method",
+   "ko": "공정분산스왑 방식",
+   "en": "fair variance swap",
+   "firstPage": "1-7"
+  },
+  {
+   "id": "lab:concept/volatility-smile",
+   "type": "Concept",
+   "ko": "변동성 스마일",
+   "en": "volatility smile",
+   "firstPage": "1-7"
+  },
+  {
+   "id": "lab:concept/vkospi",
+   "type": "Concept",
+   "ko": "VKOSPI",
+   "en": "vkospi",
+   "firstPage": "1-7",
+   "alsoOn": [
+    "2-5",
+    "3-5"
+   ]
+  },
+  {
+   "id": "lab:concept/cds",
+   "type": "Concept",
+   "ko": "신용파산스왑(CDS)",
+   "en": "cds",
+   "firstPage": "1-7"
+  },
+  {
+   "id": "lab:concept/fear-gauge",
+   "type": "Concept",
+   "ko": "공포지수",
+   "en": "fear gauge",
+   "firstPage": "1-7"
+  },
+  {
+   "id": "lab:metric/variance-error",
+   "type": "Metric",
+   "ko": "기대 분산 측정 오차",
+   "en": "variance error",
+   "firstPage": "1-7"
+  },
+  {
+   "id": "lab:method/var-backtest",
+   "type": "Method",
+   "ko": "VaR 백테스트(초과 비율)",
+   "en": "var backtest",
+   "firstPage": "2-1"
+  },
+  {
+   "id": "lab:concept/t-distribution",
+   "type": "Concept",
+   "ko": "t-분포",
+   "en": "t distribution",
+   "firstPage": "2-1"
+  },
+  {
+   "id": "lab:method/component-model",
+   "type": "Method",
+   "ko": "변동성 요소 분해모형 (Engle-Lee)",
+   "en": "component model",
+   "firstPage": "2-1"
+  },
+  {
+   "id": "lab:method/spline-garch",
+   "type": "Method",
+   "ko": "Spline-GARCH",
+   "en": "spline garch",
+   "firstPage": "2-1"
+  },
+  {
+   "id": "lab:concept/research-gap",
+   "type": "Concept",
+   "ko": "연구 공백",
+   "en": "research gap",
+   "firstPage": "2-1"
+  },
+  {
+   "id": "lab:concept/variance-premium",
+   "type": "Concept",
+   "ko": "변동성 웃돈",
+   "en": "variance premium",
+   "firstPage": "2-1"
+  },
+  {
+   "id": "lab:term/gics",
+   "type": "Term",
+   "ko": "글로벌 산업분류기준(GICS)",
+   "en": "gics",
+   "firstPage": "2-2"
+  },
+  {
+   "id": "lab:concept/research-question",
+   "type": "Concept",
+   "ko": "연구 질문",
+   "en": "research question",
+   "firstPage": "2-2"
+  },
+  {
+   "id": "lab:concept/observed-volatility",
+   "type": "Concept",
+   "ko": "관측변동성",
+   "en": "observed volatility",
+   "firstPage": "2-2",
+   "alsoOn": [
+    "3-2",
+    "3-4"
+   ]
+  },
+  {
+   "id": "lab:concept/expectation-variable",
+   "type": "Concept",
+   "ko": "시장 기대변수",
+   "en": "expectation variable",
+   "firstPage": "2-2",
+   "alsoOn": [
+    "3-5",
+    "3-6"
+   ]
+  },
+  {
+   "id": "lab:concept/return-effect",
+   "type": "Concept",
+   "ko": "수익률 효과",
+   "en": "return effect",
+   "firstPage": "2-2",
+   "alsoOn": [
+    "3-5",
+    "3-6"
+   ]
+  },
+  {
+   "id": "lab:concept/structural-change",
+   "type": "Concept",
+   "ko": "구조변화",
+   "en": "structural change",
+   "firstPage": "2-2",
+   "alsoOn": [
+    "2-4"
+   ]
+  },
+  {
+   "id": "lab:concept/spurious-regression",
+   "type": "Concept",
+   "ko": "가성회귀",
+   "en": "spurious regression",
+   "firstPage": "2-2"
+  },
+  {
+   "id": "lab:metric/false-discovery",
+   "type": "Metric",
+   "ko": "무관한 계열에서 '유의'가 나온 비율",
+   "en": "false discovery rate",
+   "firstPage": "2-2"
+  },
+  {
+   "id": "lab:concept/parsimony",
+   "type": "Concept",
+   "ko": "모수절약의 원칙",
+   "en": "parsimony",
+   "firstPage": "2-3"
+  },
+  {
+   "id": "lab:method/state-space-model",
+   "type": "Method",
+   "ko": "상태공간모형",
+   "en": "state space model",
+   "firstPage": "2-3",
+   "alsoOn": [
+    "3-2"
+   ]
+  },
+  {
+   "id": "lab:method/kalman-filter",
+   "type": "Method",
+   "ko": "칼만 필터",
+   "en": "kalman filter",
+   "firstPage": "2-3",
+   "alsoOn": [
+    "3-2"
+   ]
+  },
+  {
+   "id": "lab:method/adequacy-regression",
+   "type": "Method",
+   "ko": "분해 적정성 검증식",
+   "en": "adequacy regression",
+   "firstPage": "2-3",
+   "alsoOn": [
+    "3-3"
+   ]
+  },
+  {
+   "id": "lab:method/contribution-regression",
+   "type": "Method",
+   "ko": "산업별 기여도 회귀",
+   "en": "contribution regression",
+   "firstPage": "2-3",
+   "alsoOn": [
+    "3-4"
+   ]
+  },
+  {
+   "id": "lab:concept/multicollinearity",
+   "type": "Concept",
+   "ko": "다중공선성",
+   "en": "multicollinearity",
+   "firstPage": "2-3",
+   "alsoOn": [
+    "3-4"
+   ]
+  },
+  {
+   "id": "lab:method/return-effect-model",
+   "type": "Method",
+   "ko": "수익률 효과 모형 1~3",
+   "en": "return effect model",
+   "firstPage": "2-3"
+  },
+  {
+   "id": "lab:concept/omitted-variable-bias",
+   "type": "Concept",
+   "ko": "누락변수 편의",
+   "en": "omitted variable bias",
+   "firstPage": "2-3"
+  },
+  {
+   "id": "lab:metric/a2-error",
+   "type": "Metric",
+   "ko": "전기 기대변수 계수 a₂ 추정 오차",
+   "en": "a2 estimation error",
+   "firstPage": "2-3"
+  },
+  {
+   "id": "lab:term/efsf",
+   "type": "Term",
+   "ko": "유럽재정안정기금(EFSF)",
+   "en": "efsf",
+   "firstPage": "2-4"
+  },
+  {
+   "id": "lab:method/chow-test",
+   "type": "Method",
+   "ko": "Chow 검정",
+   "en": "chow test",
+   "firstPage": "2-4",
+   "alsoOn": [
+    "3-3"
+   ]
+  },
+  {
+   "id": "lab:term/ssr",
+   "type": "Term",
+   "ko": "잔차제곱합(SSR)",
+   "en": "ssr",
+   "firstPage": "2-4"
+  },
+  {
+   "id": "lab:concept/f-distribution",
+   "type": "Concept",
+   "ko": "F 분포",
+   "en": "f distribution",
+   "firstPage": "2-4"
+  },
+  {
+   "id": "lab:concept/break-point",
+   "type": "Concept",
+   "ko": "분기점",
+   "en": "break point",
+   "firstPage": "2-4",
+   "alsoOn": [
+    "3-3"
+   ]
+  },
+  {
+   "id": "lab:term/market-beta",
+   "type": "Term",
+   "ko": "시장 베타",
+   "en": "market beta",
+   "firstPage": "2-4"
+  },
+  {
+   "id": "lab:concept/spurious-persistence",
+   "type": "Concept",
+   "ko": "가짜 지속성",
+   "en": "spurious persistence",
+   "firstPage": "2-4"
+  },
+  {
+   "id": "lab:metric/beta-error",
+   "type": "Metric",
+   "ko": "2기 섹터 베타 추정 오차",
+   "en": "crisis beta error",
+   "firstPage": "2-4"
+  },
+  {
+   "id": "lab:concept/descriptive-statistics",
+   "type": "Concept",
+   "ko": "기초통계량",
+   "en": "descriptive statistics",
+   "firstPage": "2-5",
+   "alsoOn": [
+    "3-2"
+   ]
+  },
+  {
+   "id": "lab:term/errata",
+   "type": "Term",
+   "ko": "정오표 (원문 오기)",
+   "en": "errata",
+   "firstPage": "2-5",
+   "alsoOn": [
+    "3-1",
+    "3-3",
+    "3-7"
+   ]
+  },
+  {
+   "id": "lab:term/z-score",
+   "type": "Term",
+   "ko": "표준점수 (z)",
+   "en": "z score",
+   "firstPage": "2-5"
+  },
+  {
+   "id": "lab:method/cornish-fisher",
+   "type": "Method",
+   "ko": "코니시-피셔 보정",
+   "en": "cornish fisher",
+   "firstPage": "2-5"
+  },
+  {
+   "id": "lab:metric/worst-day-error",
+   "type": "Metric",
+   "ko": "최대 낙폭 예측 오차",
+   "en": "worst-day error",
+   "firstPage": "2-5"
+  },
+  {
+   "id": "lab:concept/nonlinear-dependence",
+   "type": "Concept",
+   "ko": "비선형 종속성",
+   "en": "nonlinear dependence",
+   "firstPage": "2-6"
+  },
+  {
+   "id": "lab:term/pearson-correlation",
+   "type": "Term",
+   "ko": "피어슨 상관계수",
+   "en": "pearson correlation",
+   "firstPage": "2-6"
+  },
+  {
+   "id": "lab:concept/diversification",
+   "type": "Concept",
+   "ko": "분산효과",
+   "en": "diversification",
+   "firstPage": "2-6"
+  },
+  {
+   "id": "lab:concept/multiple-testing",
+   "type": "Concept",
+   "ko": "다중검정",
+   "en": "multiple testing",
+   "firstPage": "2-6",
+   "alsoOn": [
+    "3-5",
+    "3-7"
+   ]
+  },
+  {
+   "id": "lab:metric/misclass",
+   "type": "Metric",
+   "ko": "독립성 판정 오류율",
+   "en": "misclassification rate",
+   "firstPage": "2-6"
+  },
+  {
+   "id": "lab:concept/sample-length",
+   "type": "Concept",
+   "ko": "표본 길이와 추정 불안정",
+   "en": "sample length",
+   "firstPage": "3-1"
+  },
+  {
+   "id": "lab:method/model-replacement",
+   "type": "Method",
+   "ko": "GARCH(1,1)로 대체",
+   "en": "model replacement",
+   "firstPage": "3-1"
+  },
+  {
+   "id": "lab:method/claim-check",
+   "type": "Method",
+   "ko": "결론 문장과 표의 대조",
+   "en": "claim check",
+   "firstPage": "3-1",
+   "alsoOn": [
+    "3-2",
+    "3-4",
+    "3-6",
+    "3-7"
+   ]
+  },
+  {
+   "id": "lab:metric/vol-err",
+   "type": "Metric",
+   "ko": "위기 이후 분산 예측 오차",
+   "en": "post-crisis variance error",
+   "firstPage": "3-1"
+  },
+  {
+   "id": "lab:concept/signal-to-noise",
+   "type": "Concept",
+   "ko": "신호 대 잡음 비 (분해 비율)",
+   "en": "signal to noise",
+   "firstPage": "3-2"
+  },
+  {
+   "id": "lab:concept/unit-mismatch",
+   "type": "Concept",
+   "ko": "계열 간 단위 차이",
+   "en": "unit mismatch",
+   "firstPage": "3-2"
+  },
+  {
+   "id": "lab:metric/fut-err",
+   "type": "Metric",
+   "ko": "다음 20일 평균 변동성 예측 오차",
+   "en": "20-day error",
+   "firstPage": "3-2"
+  },
+  {
+   "id": "lab:concept/standardized-coefficient",
+   "type": "Concept",
+   "ko": "표준화 계수",
+   "en": "standardized coefficient",
+   "firstPage": "3-3",
+   "alsoOn": [
+    "3-4",
+    "3-7"
+   ]
+  },
+  {
+   "id": "lab:concept/toyoda-bias",
+   "type": "Concept",
+   "ko": "Chow 검정의 크기 왜곡 (Toyoda 1974)",
+   "en": "toyoda bias",
+   "firstPage": "3-3"
+  },
+  {
+   "id": "lab:method/wald-test",
+   "type": "Method",
+   "ko": "분산 차이를 허용한 Wald 검정",
+   "en": "wald test",
+   "firstPage": "3-3"
+  },
+  {
+   "id": "lab:metric/false-reject",
+   "type": "Metric",
+   "ko": "구조변화 없는 시장의 1% 기각률",
+   "en": "false rejection rate",
+   "firstPage": "3-3"
+  },
+  {
+   "id": "lab:concept/vif",
+   "type": "Concept",
+   "ko": "분산팽창계수 (VIF)",
+   "en": "vif",
+   "firstPage": "3-4"
+  },
+  {
+   "id": "lab:metric/rank-acc",
+   "type": "Metric",
+   "ko": "기여 순위 맞힌 개수 (상위 3)",
+   "en": "top-3 accuracy",
+   "firstPage": "3-4"
+  },
+  {
+   "id": "lab:concept/contemporaneous-effect",
+   "type": "Concept",
+   "ko": "당기 효과 (γ₁)",
+   "en": "contemporaneous effect",
+   "firstPage": "3-5"
+  },
+  {
+   "id": "lab:concept/lagged-effect",
+   "type": "Concept",
+   "ko": "전기 효과 (γ₂, γ₄)",
+   "en": "lagged effect",
+   "firstPage": "3-5"
+  },
+  {
+   "id": "lab:concept/short-term-reversal",
+   "type": "Concept",
+   "ko": "단기 반전",
+   "en": "short term reversal",
+   "firstPage": "3-5"
+  },
+  {
+   "id": "lab:concept/trend-information",
+   "type": "Concept",
+   "ko": "추세 정보",
+   "en": "trend information",
+   "firstPage": "3-5"
+  },
+  {
+   "id": "lab:term/duplicate-table",
+   "type": "Term",
+   "ko": "중복 인쇄된 표",
+   "en": "duplicate table",
+   "firstPage": "3-5"
+  },
+  {
+   "id": "lab:metric/claim-error",
+   "type": "Metric",
+   "ko": "효과 판정 오류율",
+   "en": "claim error rate",
+   "firstPage": "3-5"
+  },
+  {
+   "id": "lab:concept/usdf",
+   "type": "Concept",
+   "ko": "달러선물지수 (USDF)",
+   "en": "usdf",
+   "firstPage": "3-6"
+  },
+  {
+   "id": "lab:concept/k200f",
+   "type": "Concept",
+   "ko": "KOSPI200선물지수 (K200F)",
+   "en": "k200f",
+   "firstPage": "3-6"
+  },
+  {
+   "id": "lab:concept/export-structure",
+   "type": "Concept",
+   "ko": "수출·수입 구조",
+   "en": "export structure",
+   "firstPage": "3-6"
+  },
+  {
+   "id": "lab:concept/nonsynchronous-trading",
+   "type": "Concept",
+   "ko": "마감 시각 차이 (비동시 거래)",
+   "en": "nonsynchronous trading",
+   "firstPage": "3-6"
+  },
+  {
+   "id": "lab:concept/price-discovery",
+   "type": "Concept",
+   "ko": "가격 발견",
+   "en": "price discovery",
+   "firstPage": "3-6"
+  },
+  {
+   "id": "lab:metric/hit-rate",
+   "type": "Metric",
+   "ko": "다음 날 시장 방향 적중률",
+   "en": "direction hit rate",
+   "firstPage": "3-6"
+  },
+  {
+   "id": "lab:concept/robustness",
+   "type": "Concept",
+   "ko": "강건성",
+   "en": "robustness",
+   "firstPage": "3-7"
+  },
+  {
+   "id": "lab:concept/research-limitation",
+   "type": "Concept",
+   "ko": "연구의 한계",
+   "en": "research limitation",
+   "firstPage": "3-7"
+  },
+  {
+   "id": "lab:method/replication",
+   "type": "Method",
+   "ko": "재현 (원자료로 다시 내기)",
+   "en": "replication",
+   "firstPage": "3-7"
+  },
+  {
+   "id": "lab:metric/wrong",
+   "type": "Metric",
+   "ko": "틀린 결론 개수 (거짓 효과 + 놓친 효과)",
+   "en": "wrong conclusions",
+   "firstPage": "3-7"
+  }
+ ],
+ "works": [
+  "ahn2012volatility",
+  "bollerslev1986generalized",
+  "bollerslev1987conditionally",
+  "canina1993informational",
+  "day1992stock",
+  "debondt1985does",
+  "engle1982autoregressive",
+  "engle1999long",
+  "engle2008midas",
+  "engle2008spline",
+  "fama1970efficient",
+  "fleming1995predicting",
+  "jorion1995predicting",
+  "jpmorgan1996riskmetrics",
+  "kim2010macro",
+  "ljung1978measure",
+  "schwert1989why",
+  "yu2007futures"
+ ],
+ "note": "v0.4: 챕터 1(1-1~1-7)과 챕터 2(2-1~2-6). v0.2의 단일 페이지 01_market-noise는 시리즈 이전 판으로 보존."
+}
