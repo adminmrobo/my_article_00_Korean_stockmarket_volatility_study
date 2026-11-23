@@ -1,0 +1,364 @@
+{
+ "version": "1.0",
+ "made": "2026-11-24",
+ "via": "rehang-2026-11-24",
+ "domains": [
+  "fin",
+  "stats"
+ ],
+ "note": "분야 뼈대 주제에 다시 걸기(ai-lab-retrofit 15장). links는 자동 후보이며 틀린 줄은 지우면 된다. 빌드 스크립트가 있는 저장소는 빌드 끝에 rehang.apply_overlay()가 이 파일을 적용한다.",
+ "topics": {
+  "lab:topic/autocorrelation": {
+   "ko": "자기상관",
+   "en": "Autocorrelation",
+   "domain": [
+    "stats"
+   ],
+   "level": 3
+  },
+  "lab:topic/continuous-distributions": {
+   "ko": "연속분포",
+   "en": "Continuous distributions",
+   "domain": [
+    "stats"
+   ],
+   "level": 1
+  },
+  "lab:topic/dispersion": {
+   "ko": "퍼짐",
+   "en": "Measures of dispersion",
+   "domain": [
+    "stats"
+   ],
+   "level": 1
+  },
+  "lab:topic/efficient-market-hypothesis": {
+   "ko": "효율적 시장 가설(논쟁 표시)",
+   "en": "Efficient market hypothesis (contested)",
+   "domain": [
+    "fin"
+   ],
+   "level": 3
+  },
+  "lab:topic/heuristics-biases": {
+   "ko": "휴리스틱과 편향",
+   "en": "Heuristics and biases",
+   "domain": [
+    "econ"
+   ],
+   "level": 3
+  },
+  "lab:topic/maximum-likelihood": {
+   "ko": "최대우도",
+   "en": "Maximum likelihood",
+   "domain": [
+    "stats"
+   ],
+   "level": 2
+  },
+  "lab:topic/multicollinearity": {
+   "ko": "다중공선성",
+   "en": "Multicollinearity",
+   "domain": [
+    "stats"
+   ],
+   "level": 2
+  },
+  "lab:topic/null-alternative": {
+   "ko": "귀무·대립가설",
+   "en": "Null and alternative hypotheses",
+   "domain": [
+    "stats"
+   ],
+   "level": 2
+  },
+  "lab:topic/risk-measurement": {
+   "ko": "위험 측정",
+   "en": "Risk measurement",
+   "domain": [
+    "biz"
+   ],
+   "level": 3
+  },
+  "lab:topic/risk-return": {
+   "ko": "위험과 수익",
+   "en": "Risk and return",
+   "domain": [
+    "fin"
+   ],
+   "level": 3
+  },
+  "lab:topic/stationarity": {
+   "ko": "정상성",
+   "en": "Stationarity",
+   "domain": [
+    "stats"
+   ],
+   "level": 3
+  },
+  "lab:topic/stock-market": {
+   "ko": "주식시장",
+   "en": "Stock market",
+   "domain": [
+    "fin"
+   ],
+   "level": 2
+  },
+  "lab:topic/systematic-idiosyncratic": {
+   "ko": "체계적·고유 위험",
+   "en": "Systematic and idiosyncratic risk",
+   "domain": [
+    "fin"
+   ],
+   "level": 3
+  },
+  "lab:topic/trend-seasonality": {
+   "ko": "추세·계절",
+   "en": "Trend and seasonality",
+   "domain": [
+    "stats"
+   ],
+   "level": 3
+  },
+  "lab:topic/volatility-decomposition": {
+   "ko": "변동성 분해",
+   "en": "Volatility decomposition",
+   "domain": [
+    "fin"
+   ],
+   "level": 3
+  },
+  "lab:topic/volatility-models": {
+   "ko": "변동성 모형(GARCH)",
+   "en": "Volatility models (GARCH)",
+   "domain": [
+    "stats"
+   ],
+   "level": 3
+  }
+ },
+ "links": {
+  "lab:claim/ewma": {
+   "topic": "lab:topic/volatility-models",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "EWMA·리스크메트릭스는 이분산성을 온전히 반영 못함"
+  },
+  "lab:claim/free-float": {
+   "topic": "lab:topic/stock-market",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "유동주식 기준 시가총액 방식"
+  },
+  "lab:concept/autocorrelation": {
+   "topic": "lab:topic/autocorrelation",
+   "score": 3,
+   "why": "이름 같음",
+   "ko": "자기상관"
+  },
+  "lab:concept/co-movement": {
+   "topic": "lab:topic/systematic-idiosyncratic",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "동조화"
+  },
+  "lab:concept/conditional-variance": {
+   "topic": "lab:topic/volatility-models",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "조건부 분산 hₜ"
+  },
+  "lab:concept/contagion": {
+   "topic": "lab:topic/volatility-decomposition",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "전염효과"
+  },
+  "lab:concept/efficient-market-hypothesis": {
+   "topic": "lab:topic/efficient-market-hypothesis",
+   "score": 3,
+   "why": "이름 같음",
+   "ko": "효율적 시장가설"
+  },
+  "lab:concept/fat-tail": {
+   "topic": "lab:topic/continuous-distributions",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "두꺼운 꼬리"
+  },
+  "lab:concept/free-float": {
+   "topic": "lab:topic/stock-market",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "유동주식 시가총액"
+  },
+  "lab:concept/heteroskedasticity": {
+   "topic": "lab:topic/volatility-models",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "이분산성"
+  },
+  "lab:concept/kurtosis": {
+   "topic": "lab:topic/dispersion",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "첨도"
+  },
+  "lab:concept/leverage-effect": {
+   "topic": "lab:topic/volatility-models",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "레버리지 효과"
+  },
+  "lab:concept/log-return": {
+   "topic": "lab:topic/risk-return",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "로그 수익률"
+  },
+  "lab:concept/multicollinearity": {
+   "topic": "lab:topic/multicollinearity",
+   "score": 3,
+   "why": "이름 같음",
+   "ko": "다중공선성"
+  },
+  "lab:concept/overreaction": {
+   "topic": "lab:topic/heuristics-biases",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "과잉반응"
+  },
+  "lab:concept/pure-contagion": {
+   "topic": "lab:topic/volatility-decomposition",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "순수 전염효과"
+  },
+  "lab:concept/random-walk": {
+   "topic": "lab:topic/efficient-market-hypothesis",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "랜덤워크 (무작위 보행)"
+  },
+  "lab:concept/sector-index": {
+   "topic": "lab:topic/stock-market",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "섹터지수"
+  },
+  "lab:concept/semi-strong-form": {
+   "topic": "lab:topic/efficient-market-hypothesis",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "준강형 효율성"
+  },
+  "lab:concept/skewness": {
+   "topic": "lab:topic/dispersion",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "왜도"
+  },
+  "lab:concept/stationarity": {
+   "topic": "lab:topic/stationarity",
+   "score": 3,
+   "why": "이름 같음",
+   "ko": "정상성 (stationarity)"
+  },
+  "lab:concept/strong-form": {
+   "topic": "lab:topic/efficient-market-hypothesis",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "강형 효율성"
+  },
+  "lab:concept/stylized-facts": {
+   "topic": "lab:topic/volatility-models",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "정형화된 사실"
+  },
+  "lab:concept/volatility": {
+   "topic": "lab:topic/volatility-models",
+   "score": 2,
+   "why": "개념 이름이 주제 이름에 들어 있음",
+   "ko": "변동성"
+  },
+  "lab:concept/volatility-clustering": {
+   "topic": "lab:topic/volatility-models",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "변동성 군집"
+  },
+  "lab:concept/weak-form-efficiency": {
+   "topic": "lab:topic/efficient-market-hypothesis",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "약형 효율성"
+  },
+  "lab:concept/winner-loser-reversal": {
+   "topic": "lab:topic/heuristics-biases",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "승자·패자 역전"
+  },
+  "lab:method/ewma": {
+   "topic": "lab:topic/volatility-models",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "지수가중이동평균 (EWMA)"
+  },
+  "lab:method/historical-volatility": {
+   "topic": "lab:topic/volatility-models",
+   "score": 2,
+   "why": "주제 이름이 개념 이름에 들어 있음",
+   "ko": "역사적 변동성 모형"
+  },
+  "lab:method/jarque-bera": {
+   "topic": "lab:topic/null-alternative",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "Jarque-Bera 검정"
+  },
+  "lab:method/maximum-likelihood": {
+   "topic": "lab:topic/maximum-likelihood",
+   "score": 3,
+   "why": "이름 같음",
+   "ko": "최우추정 (ML)"
+  },
+  "lab:method/riskmetrics": {
+   "topic": "lab:topic/risk-measurement",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "리스크메트릭스 (RiskMetrics)"
+  },
+  "lab:method/simple-moving-average": {
+   "topic": "lab:topic/trend-seasonality",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "단순이동평균 (SMA)"
+  },
+  "lab:method/value-at-risk": {
+   "topic": "lab:topic/risk-measurement",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "VaR (위험가치)"
+  },
+  "lab:simulation/contagion": {
+   "topic": "lab:topic/volatility-decomposition",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "contagion"
+  },
+  "lab:simulation/overreaction": {
+   "topic": "lab:topic/heuristics-biases",
+   "score": 3,
+   "why": "사람이 고름",
+   "ko": "overreaction"
+  }
+ },
+ "retag": {
+  "from": [],
+  "to": [
+   "fin"
+  ]
+ }
+}
